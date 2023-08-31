@@ -1,0 +1,68 @@
+.textbobl {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 30px;
+  bottom: 500px; /* Hvor høyte opp den er fra bunden */
+  width: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lol{
+  
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 40px; /* Hvor høyte opp den er fra bunden */
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+
+} 
+
+h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.3s;
+  margin-top: 30%;
+
+}
+
+.button:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+  transform: scale(1.05);
+}
+
+.arrow {
+  position: absolute;
+  right: 750px; /* høyre og venstre */
+  top: 300px;   /* opp og ned */
+}
